@@ -12,13 +12,7 @@ body{
   color: var(--slate);
   background-color: var(--white);
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: whitesmoke;
-}
+
 .header-cont {
   border-bottom: 1px solid var(--cornflower);
 }
