@@ -7,6 +7,7 @@
     --cornflower: #e7e9fc;
     --slate: #434455;
     --iris: #4d5ae5;
+    --cloud: #f4f4fd;
     --font-family: 'Roboto', sans-serif;
     --second-family: "Raleway", sans-serif;
 }
@@ -187,46 +188,26 @@ section{
   margin-top: 8px;
 }
 .section-team {
-  padding: 120px 0;
-  color: #2e2f42;
-  background-color: #f4f4fd; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 120px auto;
-  height: 732px;  
+  background: var(--cloud);
 }
 .section-team h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
 }
-.our-team-list ul {
+.our-team-listul {
   display: flex;
   gap: 24px;
   margin: auto 156px;
 }
-.our-team-list li {
-  width: calc(100% / 4);
-  list-style-type: none;
-  border: 1px solid #e7e9fc;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
+
 .our-team-list h3 {
   display: flex;
   margin: 32px 16px 4px 16px;
   justify-content: center;
   align-items: center;
 }
-.our-team-list p {
-  display: flex;
-  margin-top: 4px;
-  margin-bottom: 32px;
-  justify-content: center;
-  align-items: center;
-}
+
 .heading-our-team {
   font-size: 36px;
   line-height: 1.11;
@@ -234,25 +215,30 @@ section{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;  
+  margin-bottom: 72px
 }
 .team-list {
-   background-color: white;
+    background-color: white;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px
     
 }
 .heading-list-team {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  
+  line-height: 120%;
   letter-spacing: 0.02em;
-      
+  color: var(--primary-color);
+  margin-bottom: 8px; 
 }
 
 .team-paragraf {
+  font-family: var(--font-family);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 .section-port {
   padding: 120px 0;
