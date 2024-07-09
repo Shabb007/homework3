@@ -151,6 +151,9 @@ body {
   color: #2e2f42;
   
 }
+.advanta-item{
+  width: calc((100% - 72px) / 4);
+}
 .advan-list-ul{
   display: flex;
   gap: 24px;
