@@ -59,6 +59,12 @@ body {
   letter-spacing: 0.02em;
   
 }
+.nav-list-item {
+  padding: 24px 0;
+}
+.address-list-item {
+  padding: 24px 0;
+}
 .header-link {
   color: #2e2f42;
   font-weight: 500;
