@@ -5,31 +5,27 @@
     --secondary-color: #F4F4FD;
     --white-color: #fff;
     --cornflower: #e7e9fc;
+    --slate: #434455;
+    --iris: #4d5ae5;
     --font-family: 'Roboto', sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
-body{
+body {
   font-family: var(--font-family);
   color: var(--slate);
   background-color: var(--white);
 }
-
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .header-cont {
   border-bottom: 1px solid var(--cornflower);
 }
 .header-top {
     display: flex;
     justify-content: space-between;
-}
-body {
-  background-color: #ffffff;
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;  
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .logo {
   font-family: var(--second-family);
