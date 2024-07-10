@@ -259,9 +259,15 @@ section {
 }
 
 .portfolio {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    margin-bottom: 72px;
 }
 .port-ulist {
   display: flex;
@@ -293,20 +299,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.port-ulist-list h3,
-.port-ulist-listtwo h3 {
-  display: flex;
-  margin-top: 32px;
-  margin-left: 16px;
-  margin-bottom: 8px;
-}
 
-.port-ulist-listtwo p,
-.port-ulist-list p {
-  display: flex;
-  margin-left: 16px;
-  margin-bottom: 32px;
-}
 .port-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
