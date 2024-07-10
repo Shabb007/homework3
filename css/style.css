@@ -235,6 +235,7 @@ section {
   letter-spacing: 0.02em;
   color: var(--primary-color);
   margin-bottom: 8px; 
+  text-align: center
 }
 
 .team-paragraf {
@@ -243,6 +244,7 @@ section {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
+  text-align: center
 }
 .section-port {
   padding: 120px 0;
