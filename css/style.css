@@ -15,13 +15,15 @@ body {
   font-family: var(--font-family);
   color: var(--slate);
   background-color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-section{
+section {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -72,8 +74,7 @@ section{
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 500;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em; 
 }
 .nav-list-item {
   padding: 24px 0;
@@ -84,13 +85,12 @@ section{
 .header-link {
   color: #2e2f42;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em; 
 }
 .header-link:hover {
   color: #404bbf;
 }
-.header-link:focus{
+.header-link:focus {
   color: #404bbf;
 }
 .first-address {
@@ -156,41 +156,44 @@ section{
   margin: 120px auto;
   width: 1440px;
 }
-.advan_title{
+.advan-title {
   display: none;
 }
 .advan-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px
-  
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    margin-bottom: 8px; 
 }
-.advanta-item{
+.advanta-item {
   width: calc((100% - 72px) / 4);
 }
-.advan-list-ul{
+.advan-list-ul {
+  background-color: var(--white);
   display: flex;
   gap: 24px;
-  margin: auto 156px;
-}
-.advan-list-li {
-  width: calc(100% / 4);
-  list-style-type: none;
 }
 .advan-paragraph {
+  font-family: var(--font-family);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
-  margin-top: 8px;
+  color: var(--slate);
 }
-.section-team {
-  background: var(--cloud);
+.team {
+  padding: 120px 0;
+
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.section-team h2 {
+.team h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
@@ -198,30 +201,31 @@ section{
 .our-team-listul {
   display: flex;
   gap: 24px;
-  margin: auto 156px;
 }
-
-.our-team-list h3 {
-  display: flex;
-  margin: 32px 16px 4px 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading-our-team {
+.heading-team {
+  font-family: var(--font-family);
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+  line-height: 111%;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;  
-  margin-bottom: 72px
+  color: var(--primary-color);
+  margin-bottom: 72px;
 }
 .team-list {
-    background-color: white;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px
+  width: calc((100% - 72px) / 4);
+  list-style-type: none;
+  border: 1px solid #e7e9fc;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
     
+}
+
+.team-member-info {
+  padding: 32px 0;
 }
 .heading-list-team {
   font-family: var(--font-family);
