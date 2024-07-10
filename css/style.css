@@ -293,7 +293,20 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.port-ulist-list h3,
+.port-ulist-listtwo h3 {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
 
+.port-ulist-listtwo p,
+.port-ulist-list p {
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
 .port-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
