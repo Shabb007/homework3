@@ -79,7 +79,10 @@ section {
   letter-spacing: 0.02em; 
 }
 .nav-list-item {
-  padding: 24px 0;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .address-list-item {
   padding: 24px 0;
