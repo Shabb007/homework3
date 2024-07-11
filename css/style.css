@@ -331,7 +331,7 @@ section {
   padding-top: 100px;
 }
 .footer-logo {
-    display: flex;
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     color: #4d5ae5;
     font-weight: 700;
