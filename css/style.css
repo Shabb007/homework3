@@ -22,7 +22,8 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  margin: 0 auto;
 }
 section {
   padding: 120px 0;
