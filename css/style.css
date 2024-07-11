@@ -203,7 +203,7 @@ section {
   display: flex;
   gap: 24px;
 }
-.heading-team {
+.heading-team portfolio-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
