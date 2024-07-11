@@ -264,16 +264,16 @@ section {
   margin-bottom: 72px;
 }
 
-.portfolio-title {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    margin-bottom: 72px;
+.portfolio-title{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  margin-bottom: 72px;
 }
 .port-ulist {
   background: var(--white);
